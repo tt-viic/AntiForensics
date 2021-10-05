@@ -6,7 +6,7 @@ It is incorporated that the downloaded executable is decrypted by the script so 
 
 So as can you imagine this is a nuisance for any anti virus to detect it on the fly, and as it runs in memory we only have to take care of the heuristic in execution of what we download and it will work without problems.
 
-## CONTACTO/SUGERENCIAS
+## CONTACT-SUGGESTIONS
 
 
 **Any doubt / suggestion / collaboration contact me contact me by mail at this address viic@tutanota.com**
