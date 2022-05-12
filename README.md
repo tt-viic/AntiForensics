@@ -4,12 +4,12 @@ This script allows us to perform an execution in the memory of the device withou
 
 It is incorporated that the downloaded executable is decrypted by the script so that the anti virus cannot detect the download and for ultimate security the executable, apart from being encrypted, would be compressed in a folder with 7zip.
 
-So as you can imagine this is a nuisance for any anti virus to detect it on the fly, and as it runs in memory we only have to take care of the heuristic in execution of what we download and it will work without problems.
+So as you can imagine this is a nuisance for any anti virus to detect it on the fly, and as it runs in memory we only have to take care of the heuristic in execution of what we download and it will work without problems. this address
 
 ## CONTACT-SUGGESTIONS
 
 
-**Any doubt / suggestion / collaboration contact me contact me by mail at this address viic@tutanota.com**
+**Any doubt / suggestion / collaboration contact me by mail at viic@tutanota.com**
 
 ---
 <p align="center">
